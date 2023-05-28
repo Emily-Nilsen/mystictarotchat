@@ -17,3 +17,6 @@ export default function Home() {
     </main>
   );
 }
+
+// Mystic Tarot Chat - Online Tarot Card Readings for Insight and Guidance
+// Unveil your future with Mystic Tarot Chat's online tarot card readings. Gain guidance now!
