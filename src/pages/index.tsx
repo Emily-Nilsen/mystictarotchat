@@ -22,16 +22,6 @@ export default function Home() {
         />
       </Head>
       <main className="relative w-full min-h-screen">
-        {/* <div className="absolute inset-0 bg-slate-950">
-          <Image
-            priority
-            fill
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mystic%20Tarot%20Chat/tarot_cards_backdrop_vcf3oo.webp"
-            alt="Tarot cards collage"
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-slate-950/90 mix-blend-multiply" />
-        </div> */}
         <HomeHero />
       </main>
 
@@ -39,7 +29,7 @@ export default function Home() {
         type="text/javascript"
         src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
         id="aisensy-wa-widget"
-        widget-id="viaevP"
+        widget-id="lMHaZB"
       ></Script>
     </>
   );
