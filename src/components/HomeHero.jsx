@@ -22,11 +22,14 @@ export function HomeHero() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-white/70 ring-1 ring-white/40 hover:ring-white/50">
               Explore your fate now.{' '}
-              <a href="#" className="font-semibold text-violet-400">
+              <Link
+                href="#"
+                className="font-semibold transition-all duration-150 ease-in-out text-violet-400 hover:text-violet-300"
+              >
                 <span className="absolute inset-0" aria-hidden="true" />
                 Connect with one of our readers{' '}
                 <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="text-center">

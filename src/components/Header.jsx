@@ -56,7 +56,7 @@ export function Header() {
         <div className="justify-end flex-1 text-right">
           <Link
             href="#"
-            className="text-sm font-semibold leading-6 text-white/70"
+            className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-white/70 hover:text-white"
           >
             Book now <span aria-hidden="true"></span>
           </Link>
