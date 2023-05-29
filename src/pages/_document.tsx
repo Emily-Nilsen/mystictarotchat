@@ -7,7 +7,7 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685273690/Mystic%20Tarot%20Chat/favicon_qptpoh.svg"
+          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685363399/Mystic%20Tarot%20Chat/favicon_ipiguw.svg"
         />
         <link
           rel="stylesheet"
