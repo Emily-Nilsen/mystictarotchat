@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Script from 'next/script';
 import { HomeHero } from '@/components/HomeHero';
 
 export default function Home() {
@@ -34,12 +35,12 @@ export default function Home() {
         <HomeHero />
       </main>
 
-      <script
+      <Script
         type="text/javascript"
         src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
         id="aisensy-wa-widget"
         widget-id="viaevP"
-      ></script>
+      ></Script>
     </>
   );
 }
