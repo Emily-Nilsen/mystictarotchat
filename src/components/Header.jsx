@@ -35,7 +35,7 @@ export function Header() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -53,12 +53,12 @@ export function Header() {
             alt="Mystic Tarot Chat Logo"
           />
         </Link>
-        <div className="flex justify-end flex-1">
+        <div className="justify-end flex-1 text-right">
           <Link
             href="#"
             className="text-sm font-semibold leading-6 text-white/70"
           >
-            Start your journey <span aria-hidden="true">&rarr;</span>
+            Book now <span aria-hidden="true"></span>
           </Link>
         </div>
       </nav>
@@ -69,12 +69,12 @@ export function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 left-0 z-10 w-full px-6 py-6 overflow-y-auto bg-slate-950">
+        <Dialog.Panel className="fixed inset-y-0 left-0 z-50 w-full px-6 py-6 overflow-y-auto bg-slate-950">
           <div className="flex items-center justify-between">
             <div className="flex flex-1">
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-gray-400"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -94,9 +94,9 @@ export function Header() {
             <div className="flex justify-end flex-1">
               <Link
                 href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-right text-white/70"
               >
-                Start your journey <span aria-hidden="true">&rarr;</span>
+                Book now <span aria-hidden="true"></span>
               </Link>
             </div>
           </div>

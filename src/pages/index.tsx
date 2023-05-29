@@ -6,8 +6,9 @@ export default function Home() {
     <main className="relative w-full min-h-screen">
       <div className="absolute inset-0 bg-slate-950">
         <Image
+          priority
           fill
-          src="/tarot-cards-backdrop.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mystic%20Tarot%20Chat/tarot_cards_backdrop_vcf3oo.webp"
           alt="Tarot cards collage"
           className="object-cover"
         />
