@@ -22,7 +22,7 @@ export default function Home() {
         />
       </Head>
       <main className="relative w-full min-h-screen">
-        <div className="absolute inset-0 bg-slate-950">
+        {/* <div className="absolute inset-0 bg-slate-950">
           <Image
             priority
             fill
@@ -31,7 +31,7 @@ export default function Home() {
             className="object-cover"
           />
           <div className="absolute inset-0 bg-slate-950/90 mix-blend-multiply" />
-        </div>
+        </div> */}
         <HomeHero />
       </main>
 

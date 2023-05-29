@@ -5,17 +5,19 @@ import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
-const navigation = [
-  { name: 'Free Readings', href: '#' },
-  { name: 'Paid Readings', href: '#' },
-  { name: 'Contact Us', href: '#' },
-];
+import navigation from './Links';
+
+// const navigation = [
+//   { name: 'Free Readings', href: '#' },
+//   { name: 'Paid Readings', href: '#' },
+//   { name: 'Contact Us', href: '#' },
+// ];
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-gradient-to-b from-slate-950/50">
+    <header className="absolute inset-x-0 top-0 z-50 bg-gradient-to-b from-slate-950">
       <nav
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"

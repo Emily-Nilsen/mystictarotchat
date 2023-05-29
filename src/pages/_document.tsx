@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Image from 'next/image';
 
 export default function Document() {
   return (
@@ -13,8 +14,9 @@ export default function Document() {
           href="https://use.typekit.net/asg4jef.css"
         ></link>
       </Head>
-      <body>
+      <body className="bg-contain bg-cards lg:bg-cards-extended">
         <Main />
+
         <NextScript />
       </body>
     </Html>
