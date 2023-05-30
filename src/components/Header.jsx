@@ -60,7 +60,7 @@ export function Header() {
             href="#"
             className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-white/70 hover:text-white"
           >
-            Book now <span aria-hidden="true"></span>
+            Contact Us <span aria-hidden="true"></span>
           </Link>
         </div>
       </nav>

@@ -38,7 +38,7 @@ export function HomeHero() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-white/70">
               Unlock the secrets of your past, present, and future with a
-              personalised taro card reading from our expert tarot readers.
+              personalised tarot card reading from our expert tarot readers.
             </p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Link

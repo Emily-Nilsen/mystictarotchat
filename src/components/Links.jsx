@@ -1,7 +1,7 @@
 const navigation = [
-  { name: 'Free Readings', href: '#' },
-  { name: 'Paid Readings', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'Free Readings', href: '#free-readings' },
+  { name: 'Paid Readings', href: '#paid-readings' },
+  { name: 'Pricing', href: '#' },
 ];
 
 export default navigation;

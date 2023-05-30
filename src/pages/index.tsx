@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Script from 'next/script';
 import { HomeHero } from '@/components/HomeHero';
+import { Introduction } from '@/components/Introduction';
 
 export default function Home() {
   return (
@@ -21,8 +22,9 @@ export default function Home() {
           key="canonical"
         />
       </Head>
-      <main className="relative w-full min-h-screen">
+      <main>
         <HomeHero />
+        <Introduction />
       </main>
 
       <Script
