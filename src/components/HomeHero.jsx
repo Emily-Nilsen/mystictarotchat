@@ -23,7 +23,7 @@ export function HomeHero() {
             <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-white/70 ring-1 ring-white/40 hover:ring-white/50">
               Explore your fate now.{' '}
               <Link
-                href="#"
+                href="/#reading"
                 className="font-semibold transition-all duration-150 ease-in-out text-violet-400 hover:text-violet-300"
               >
                 <span className="absolute inset-0" aria-hidden="true" />
@@ -42,13 +42,13 @@ export function HomeHero() {
             </p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Link
-                href="#"
+                href="/#reading"
                 className="rounded-full bg-violet-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-violet-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
               >
                 Ask for a reading
               </Link>
               <Link
-                href="#"
+                href="/#reading"
                 className="text-sm font-semibold leading-6 text-white/70 hover:text-white/80"
               >
                 Discover your path <span aria-hidden="true">→</span>

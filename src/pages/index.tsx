@@ -3,6 +3,10 @@ import Head from 'next/head';
 import Script from 'next/script';
 import { HomeHero } from '@/components/HomeHero';
 import { Introduction } from '@/components/Introduction';
+import { Fool } from '@/components/Fool';
+import { Tower } from '@/components/Tower';
+import { Sun } from '@/components/Sun';
+import { TarotCardReveal } from '@/components/TarotCardReveal';
 
 export default function Home() {
   return (
@@ -24,15 +28,21 @@ export default function Home() {
       </Head>
       <main>
         <HomeHero />
+        <div className="-mt-16 sm:-mt-28 lg:-mt-32">
+          <TarotCardReveal />
+        </div>
+
         <Introduction />
       </main>
 
-      <Script
-        type="text/javascript"
-        src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
-        id="aisensy-wa-widget"
-        widget-id="lMHaZB"
-      ></Script>
+      <div id="reading">
+        <Script
+          type="text/javascript"
+          src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+          id="aisensy-wa-widget"
+          widget-id="lMHaZB"
+        ></Script>
+      </div>
     </>
   );
 }
