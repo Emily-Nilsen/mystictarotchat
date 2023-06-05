@@ -83,27 +83,7 @@ export default function Privacy() {
             Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis
             diam.
           </p>
-          <figure className="mt-10 border-l border-violet-600 pl-9">
-            <blockquote className="font-semibold text-white">
-              <p>
-                “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus
-                purus. Lectus nibh ullamcorper ac dictum justo in euismod. Risus
-                aenean ut elit massa. In amet aliquet eget cras. Sem volutpat
-                enim tristique.”
-              </p>
-            </blockquote>
-            <figcaption className="flex mt-6 gap-x-4">
-              <img
-                className="flex-none w-6 h-6 rounded-full bg-gray-50"
-                src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-              <div className="text-sm leading-6">
-                <strong className="font-semibold text-white">Maria Hill</strong>{' '}
-                – Marketing Manager
-              </div>
-            </figcaption>
-          </figure>
+
           <p className="mt-10">
             Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
             enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
@@ -111,20 +91,7 @@ export default function Privacy() {
             neque erat velit.
           </p>
         </div>
-        <figure className="mt-16">
-          <img
-            className="object-cover aspect-video rounded-xl bg-gray-50"
-            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-            alt=""
-          />
-          <figcaption className="flex mt-4 text-sm leading-6 text-gray-500 gap-x-2">
-            <InformationCircleIcon
-              className="mt-0.5 h-5 w-5 flex-none text-gray-300"
-              aria-hidden="true"
-            />
-            Faucibus commodo massa rhoncus, volutpat.
-          </figcaption>
-        </figure>
+
         <div className="max-w-2xl mt-16">
           <h2 className="text-2xl font-bold tracking-tight text-white">
             Everything you need to get up and running

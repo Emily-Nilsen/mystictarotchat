@@ -43,7 +43,7 @@ export function Introduction() {
               will carefully interpret the cards, shedding light on your past,
               present, and potential future. Discover hidden aspects of
               yourself, gain clarity on important matters, and find guidance in
-              navigating life's complexities.
+              navigating life’s complexities.
             </p>
             <figure className="mt-10 border-l border-violet-600 pl-9">
               <blockquote className="italic font-semibold text-white">
@@ -93,7 +93,7 @@ export function Introduction() {
             </p>
             <p className="mt-8">
               Each card is carefully examined, revealing the intricacies of your
-              unique journey. Our readers will interpret the spread's symbolism,
+              unique journey. Our readers will interpret the spread’s symbolism,
               energies, and connections, providing you with a comprehensive
               understanding of your circumstances.
             </p>

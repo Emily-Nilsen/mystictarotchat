@@ -5,7 +5,7 @@ const tiers = [
     name: 'Hobby',
     id: 'tier-hobby',
     href: '#',
-    priceMonthly: '$49',
+    priceMonthly: '$40',
     description:
       'Modi dolorem expedita deleniti. Corporis iste qui inventore pariatur adipisci vitae.',
     features: [
@@ -19,7 +19,7 @@ const tiers = [
     name: 'Team',
     id: 'tier-team',
     href: '#',
-    priceMonthly: '$79',
+    priceMonthly: '$80',
     description:
       'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
     features: [
@@ -36,15 +36,15 @@ export default function Pricing() {
   return (
     <div className="overflow-hidden bg-gray-900 isolate">
       <div className="px-6 pt-24 mx-auto text-center max-w-7xl pb-96 sm:pt-32 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">
+        <div className="max-w-4xl mx-auto pt-28 sm:pt-40">
+          <p className="text-base font-semibold leading-7 text-indigo-400">
             Pricing
-          </h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          </p>
+          <h1 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             The right price for you,{' '}
             <br className="hidden sm:inline lg:hidden" />
             whoever you are
-          </p>
+          </h1>
         </div>
         <div className="relative mt-6">
           <p className="max-w-2xl mx-auto text-lg leading-8 text-white/60">
@@ -91,9 +91,9 @@ export default function Pricing() {
                       <span className="text-5xl font-bold tracking-tight text-gray-900">
                         {tier.priceMonthly}
                       </span>
-                      <span className="text-base font-semibold leading-7 text-gray-600">
+                      {/* <span className="text-base font-semibold leading-7 text-gray-600">
                         /month
-                      </span>
+                      </span> */}
                     </div>
                     <p className="mt-6 text-base leading-7 text-gray-600">
                       {tier.description}
