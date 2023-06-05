@@ -7,12 +7,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 import navigation from './Links';
 
-// const navigation = [
-//   { name: 'Free Readings', href: '#' },
-//   { name: 'Paid Readings', href: '#' },
-//   { name: 'Contact Us', href: '#' },
-// ];
-
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -57,7 +51,7 @@ export function Header() {
         </Link>
         <div className="justify-end flex-1 text-right">
           <Link
-            href="#"
+            href="/contact"
             className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-white/70 hover:text-white"
           >
             Contact Us <span aria-hidden="true"></span>
