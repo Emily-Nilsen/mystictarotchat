@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Script from 'next/script';
 import navigation from './Links';
 
 const navigationItems = {
@@ -94,6 +94,14 @@ export function Footer() {
           &copy; {new Date().getFullYear()} Mystic Tarot Chat. All rights
           reserved.
         </p>
+      </div>
+      <div id="reading">
+        <Script
+          type="text/javascript"
+          src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+          id="aisensy-wa-widget"
+          widget-id="lMHaZB"
+        ></Script>
       </div>
     </footer>
   );

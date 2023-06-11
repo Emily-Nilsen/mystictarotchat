@@ -35,14 +35,14 @@ export default function Home() {
         <Introduction />
       </main>
 
-      <div id="reading">
+      {/* <div id="reading">
         <Script
           type="text/javascript"
           src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
           id="aisensy-wa-widget"
           widget-id="lMHaZB"
         ></Script>
-      </div>
+      </div> */}
     </>
   );
 }
