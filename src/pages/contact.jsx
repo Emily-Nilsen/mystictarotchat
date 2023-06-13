@@ -46,7 +46,7 @@ export default function Contact() {
           name="form-name"
           value="Mystic Tarot Chat - Contact Form"
         />
-        <input type="hidden" name="tema" value="Contact Mystic Tarot Chat" />
+        <input type="hidden" name="subject" value="Contact Mystic Tarot Chat" />
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
