@@ -8,7 +8,7 @@ function classNames(...classes) {
 }
 
 export default function Contact() {
-  const [agreed, setAgreed] = useState(false);
+  // const [agreed, setAgreed] = useState(false);
 
   return (
     <div className="px-6 py-24 bg-t isolate sm:py-32 lg:px-8">
