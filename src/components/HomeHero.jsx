@@ -47,12 +47,12 @@ export function HomeHero() {
               >
                 Ask for a reading
               </Link>
-              <Link
+              {/* <Link
                 href="#reading"
                 className="text-sm font-semibold leading-6 text-white/70 hover:text-white/80"
               >
                 Discover your path <span aria-hidden="true">→</span>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

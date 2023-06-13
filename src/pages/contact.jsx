@@ -35,9 +35,18 @@ export default function Contact() {
       </div>
       <form
         action="#"
+        subject="Contact Mystic Tarot Chat"
+        name="Mystic Tarot Chat - Contact Form"
+        data-netlify="true"
         method="POST"
         className="max-w-xl mx-auto mt-16 sm:mt-20"
       >
+        <input
+          type="hidden"
+          name="form-name"
+          value="Mystic Tarot Chat - Contact Form"
+        />
+        <input type="hidden" name="tema" value="Contact Mystic Tarot Chat" />
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
@@ -102,7 +111,7 @@ export default function Contact() {
               Phone number
             </label>
             <div className="relative mt-2.5">
-              <div className="absolute inset-y-0 left-0 flex items-center">
+              {/* <div className="absolute inset-y-0 left-0 flex items-center">
                 <label htmlFor="country" className="sr-only">
                   Country
                 </label>
@@ -120,7 +129,7 @@ export default function Contact() {
                   className="absolute top-0 w-5 h-full text-gray-400 pointer-events-none right-3"
                   aria-hidden="true"
                 />
-              </div>
+              </div> */}
               <input
                 type="tel"
                 name="phone-number"
@@ -148,9 +157,10 @@ export default function Contact() {
               />
             </div>
           </div>
-          <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
+          {/* <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
             <div className="flex items-center h-6">
               <Switch
+                required
                 checked={agreed}
                 onChange={setAgreed}
                 className={classNames(
@@ -175,7 +185,7 @@ export default function Contact() {
               </Link>
               .
             </Switch.Label>
-          </Switch.Group>
+          </Switch.Group> */}
         </div>
         <div className="mt-10">
           <button
