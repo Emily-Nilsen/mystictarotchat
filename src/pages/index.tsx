@@ -22,7 +22,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.mystictarotchat.com/"
+          href="https://mystictarotchat.com/"
           key="canonical"
         />
       </Head>
