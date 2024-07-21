@@ -57,7 +57,7 @@ export function Introduction() {
               <figcaption className="flex mt-6 gap-x-4">
                 <Image
                   className="flex-none w-6 h-6 rounded-full bg-gray-50"
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mystic%20Tarot%20Chat/Matthew_Davis_g2ghln.webp"
+                  src="/Matthew_Davis.webp"
                   width={300}
                   height={300}
                 />

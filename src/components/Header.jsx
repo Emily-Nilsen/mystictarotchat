@@ -45,7 +45,7 @@ export function Header() {
             className="w-auto h-32"
             width={376}
             height={382}
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685267539/Mystic%20Tarot%20Chat/logo_light_ayh3oe.png"
+            src="/logo_light.webp"
             alt="Mystic Tarot Chat Logo"
           />
         </Link>
@@ -83,7 +83,7 @@ export function Header() {
                 className="w-auto h-32"
                 width={376}
                 height={382}
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685267539/Mystic%20Tarot%20Chat/logo_light_ayh3oe.png"
+                src="/logo_light.webp"
                 alt="Mystic Tarot Chat Logo"
               />
             </Link>
